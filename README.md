@@ -20,7 +20,7 @@ Play locally on: [http://127.0.0.1:5000]
 
 ### 🐍 Backend
 
-- **Python 3.x**
+- **Python 3.10**
 - **Flask**: A lightweight web framework used to build the backend logic and route handling.
 - **random module**: Used for generating the computer's move randomly.
 
@@ -31,8 +31,6 @@ Play locally on: [http://127.0.0.1:5000]
 stone-paper-sissor/
 │
 ├── app.py # Flask backend
-├── templates/
-│ └── index.html # Game UI
-├── static/
-│ └── style.css # CSS styling
+├── templates/ index.html # Game UI
+├── static/ style.css # CSS styling
 └── README.md # Project documentation
